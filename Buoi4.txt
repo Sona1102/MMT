@@ -4,3 +4,9 @@
 - Đảm bảo truyền tải các khung dữ liệu giữa hai máy tính có đường truyền vật lý nối trực tiếp với nhau.
 - Cài đặt cơ chế phát hiện và xử lý lỗi dữ liệu nhận
 - Điều khiển luồng.
++++ Phương pháp định khung phổ biến
+- Đếm kí tự(character count)
+- Sử dụng các bytes làm cờ hiệu và các bytes độn (Flag byte with byte stuffing).
+- Sử dụng cờ bắt đầu và kết thúc khung cùng với các bit độn (Starting and ending flags with bit stuffing).
+
+---> Học phương pháp chia bit-> định mã CRC
