@@ -1,0 +1,6 @@
+====================Tầng liên kết dữ liệu=====================
++++ Chức năng
+- Cung cấp một giao diện dịch vụ chuẩn cho tầng mạng
+- Đảm bảo truyền tải các khung dữ liệu giữa hai máy tính có đường truyền vật lý nối trực tiếp với nhau.
+- Cài đặt cơ chế phát hiện và xử lý lỗi dữ liệu nhận
+- Điều khiển luồng.
