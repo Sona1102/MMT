@@ -1,0 +1,61 @@
+============Các thành phần của  máy tính==========
+
+
+1. Mảng quảng bá:
+2. Mạng điểm nối điểm - mạng chuyển mạch
+- Có nhiều kết nối giữa các cặp máy tính
+-
+-
+3. Phân loại máy tính theo khoảng cách địa lý (8 - 1 (10 100 1km) 10 100 1000 10000km) ->  4
+ 3.1 Mạng khu vực cá nhân
+ 3.2 Mạng cục bộ - LAN (Local Area Network)
+ 3.3 Mạng thành phố - MAN (Metropolitan Area Network)
+ 3.4 Mạng diện rộng - WAN (wide area network)
+
+4. Mạng tuyến tính - BUS:
+5. Mạng hình sao - Star:
+-- Ưu điểm:
+- Dễ cài đặt, dễ phát hiện lỗi
+- Mạng vẫn hoạt động khi thêm hoặc bớt host
+-- Khuyết điểm: 
+-
+-
+6. Mạng hình tròn - Ring:
+---Truyền thông tin bằng cách sử dụng một thẻ (token) lần lượt truyền qua các máy tính.
+- Không xảy ra đụng độ -> 100% hiệu suất
+- Chi phí cao
+- Vòng bị gãy.
+7. Phân loại mạng không dây - có dây (Wireless Network/Wired Network)
+LAN = LAN + LAN
+WAN = LAN + LAN
+WAN = WAN + WAN
+GAN(Internetwork)
+----Các thành phần phần mềm mạng
+- Giao thức (Protocol)
+- Dịch vụ (Services)
+- Giao diện (Interface)
+
+
+8. Mô hình tham khảo OSI
+- Tầng vậy lý (Physical Layer)
+	- Truyền tải các bit thô(raw bit) trên một kênh truyền vật lý.
+- Tầng liên kết dữ liệu(Data link layer)
+	- Đảm bảo truyền tải các khung dữ liệu (frame) giữa hai máy tính có kết nối vật lý trực tiếp.
+	- Thiết lập cơ chế phát hiện và xử lý lỗi.
+	- Điều khiển luồng (Flow control)
+	- Giải quyết tranh chấp đường truyền.
+- Tầng mạng (Network Layer)
+	- Đơn vị truyền nhận dữ liệu là gói tin(Packet).
+	- Vạch đường (routing) và chuyển tiếp các gói tin từ nguồn đến đích.
+	- Kiểm tra, khắc phục tình trạng
+- Tầng vận chuyển (transport layer):
+	- Đảm bảo việc truyền toàn bộ thông điệp từ nguồn đến đích (điểm nối điểm, end to end)
+	- Định địa chỉ dịch vụ
+	- Phân đoạn và lắp ghép.
+	- Điều khiển kết nối
+	- Kiểm tra các gói tin truyền
+- Tầng giao dịch (Session layer)
+- Tầng trình bày (Presentation Layer)
+	- Chuyển hóa dữ liệu trao đổi giữa các hệ thống khác nhau; đảm bảo 02 máy tính khác nhau có thể trao đổi
+- Tầng ứng dụng (Application Layer)
+	- Các phần mềm, dịch vụ...........

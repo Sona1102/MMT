@@ -1,0 +1,42 @@
+===========================================BUỔI 1: Mạng máy tính
+- Mạng điện thoại
++ Mạng chuyển mạch(Circuit Switching)
+- Mạng hướng đầu cuối
++ Mạng của các máy tính lớn(Main Frame)
+- Mạng máy tính là gì?
+-> Mạng của 2 hay nhiều thiết bị được nối  với nhau bằng một đường truyền vật lý theo một kiến trúc nào đó.
+-> Máy ảo được cài trong một máy cũng được tính là một máy. Kết nối máy chủ với máy ảo cũng tính là mạng máy tính.
+-> 
++ Mạng kết nối dây: tín hiệu được truyền qua điện (dây cáp)
++ Mạng kết nối không dây: tín hiệu được truyền qua sóng(Không khí).
+
+Cấu trúc một mạng máy tính gồm 3 thành phần:
+1. Đường biên mạng:(network edge) các máy chủ/trạm làm việc thực thi các ứng dụng mạng
+2. Truy cập mạng:(access network) các kênh truyền tải thông tin hữu tuyến hoặc vô tuyến
+3. Đường trục mạng: (network core) hệ thống các bộ chọn đường và kết nối tốc độ cao.
+
+1. Đường biên mạng - Network Edge
+- Các máy chủ/trạm làm việc thực thi các ứng dụng mạng
+- Máy chủ/trạm làm việc còn được gọi là End Systems
+- Tổ chúc theo mô hình:
++ Client-Server
++ Peer-to-peer
+2. Truy cập mạng - Access Network
+3. Đường trục mạng (Network Core)
+- Mạng tốc độ cao của các router
+- Đảm bảo thông tin thông suốt giữa các máy tính cách xa nhau
+- Sử dụng 2 chế độ truyền tin:
++ Chuyển mạch
++ Chuyển gói
+
+
+*Mạng chuyển mạch(Circuit switching network)
+- Thiết lập kênh truyền tận hiến giữa hai bên truyền nhận
+- Hai phương pháp thực hiện:
++ Phân chia theo tần số(FDMA-Frequency Division Multi Access)
++ Phân chia theo thời gian(TDMA - Time Division Multi Access)
+-----Lợi ích của mạng
+- Tăng cường tính bảo mật thông tin: chương trình và dữ liệu được đặt trên các máy chủ
+- Quản lý tập trung
+- Nhiều ứng dụng mới ra đời: làm việc từ xa, làm việc nhóm, văn phòng ảo, hội thảo qua mạng.....
+- Sử dụng thay thế các dịch vụ liên lạc truyền thống: IP telephone, email, IPTV, Chat...

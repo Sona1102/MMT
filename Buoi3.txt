@@ -1,0 +1,39 @@
+============Tầng vật lý=============
+Các vấn ề phải quan tâm:
+- Cách thức mã hóa thông tin (dữ liệu) -> thành dữ liệu số.
+- Các loại kênh truyền có thể sử dụng ể truyền tin.
+- Sơ đồ nối kết các thiết bị truyền và nhận lại với nhau.
+- Cách thức truyền tải các bits từ thiết bị truyền sang thiết bị nhận.
+
+
+
+
+
+
+
+Câu hỏi:
+1. Mã hóa văn bản: -> dòng bit
+2. Mã hóa hình ảnh: -> mỗi điểm ảnh dùng 1 hoặc nhiều bit để biểu diễn điểm ảnh. Dùng mãng 2 chiều để lưu trữ một hình ảnh.
+3. Mã hóa âm thanh, phim ảnh:
+-> lấy mẫu
+-> Lượng hóa
+-> Mã hóa
+
+
+
+===============Kênh truyền===================
+- Sử dụng 3 loại cáp phổ biến
+-> Cáp đồng trục (coaxial)
+-> Cáp xoắn đôi (twisted pair)
+-> Cáp quang (fiber optic)
+- Các yếu tố chọn cáp:
+-> Loại tín hiệu
+-> Băng thông và tốc độ truyền tải
+-> Khoảng cách truyền tải
+-> Môi trường lắp đặt
+-> Khả năng chống nhiễu (EMI/RFI)
+-> Loại cáp
+-> Độ bền và khả năng bảo vệ
+-> Chi phí
+-> Chuẩn
+-> Khả năng mở rộng
